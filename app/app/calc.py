@@ -1,6 +1,7 @@
 """
-Calculator fucnctions for the app
+Calculator functions for the app.
 """
+
 
 def add(x, y):
     """
@@ -8,8 +9,9 @@ def add(x, y):
     """
     return x + y
 
+
 def subtract(x, y):
     """
-    Subtracts second number from first.
+    Subtracts the second number from the first.
     """
     return y - x
