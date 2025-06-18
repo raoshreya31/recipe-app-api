@@ -20,8 +20,8 @@ RUN python -m venv /py && \
     fi && \
     rm -rf /tmp && \
     apk del .tmp-build-deps && \
-    adduser --disabled-password --no-create-home django-user # This is now properly part of RUN.
+    adduser --disabled-password --no-create-home django-user
 
 ENV PATH="/py/bin:$PATH" 
 
-USER django-user
+USER django-user  
